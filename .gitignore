@@ -1,0 +1,15 @@
+# Ignore the virtual environment folder
+venv/
+.venv/
+Env/
+
+# Ignore local TensorBoard log files
+logs/
+
+# Ignore large datasets and models (Recommended to keep repo clean)
+*.csv
+*.pkl
+*.h5
+
+# Ignore Jupyter checkpoint files
+.ipynb_checkpoints/
